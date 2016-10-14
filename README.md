@@ -1,2 +1,2 @@
-# ecs-consul-agent
-Docker container for running Consul in client mode as an ECS service
+# ecs-consul-server
+Docker container for running Consul in server mode in ECS as a service
