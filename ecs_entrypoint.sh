@@ -5,6 +5,7 @@ echo "IP=${IP}"
 
 docker-entrypoint.sh agent          \
   -advertise $IP                    \
+  -client 0.0.0.0                   \
   -dc ${DATACENTER}                 \
   -atlas ${ENV_NAME}                \
   -atlas-join                       \
