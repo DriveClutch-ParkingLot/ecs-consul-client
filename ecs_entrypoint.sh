@@ -9,4 +9,5 @@ docker-entrypoint.sh agent          \
   -dc ${DATACENTER}                 \
   -atlas ${ENV_NAME}                \
   -atlas-join                       \
-  -atlas-token ${ATLAS_TOKEN}
+  -atlas-token ${ATLAS_TOKEN}       \
+  -log_level ${LOG_LEVEL}
